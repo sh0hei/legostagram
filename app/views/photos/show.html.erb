@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Media:</strong>
+  <%= @photo.media_id %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @photo.url %>
+</p>
+
+<p>
+  <strong>Low:</strong>
+  <%= @photo.low %>
+</p>
+
+<p>
+  <strong>High:</strong>
+  <%= @photo.high %>
+</p>
+
+<p>
+  <strong>Thumb:</strong>
+  <%= @photo.thumb %>
+</p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @photo.score %>
+</p>
+
+<p>
+  <strong>Filter:</strong>
+  <%= @photo.filter %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @photo.created_at %>
+</p>
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  media_id: MyString
+  url: MyString
+  low: MyString
+  high: MyString
+  thumb: MyString
+  score: 1
+  filter: MyString
+  created_at: 2014-08-10 16:28:52
+
+two:
+  media_id: MyString
+  url: MyString
+  low: MyString
+  high: MyString
+  thumb: MyString
+  score: 1
+  filter: MyString
+  created_at: 2014-08-10 16:28:52
